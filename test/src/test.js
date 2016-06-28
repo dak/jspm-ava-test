@@ -1,7 +1,7 @@
 import test from 'ava';
 
 test('JSPM', async function (assert) {
-    const module = await System.import('~/test');
+    const module = await SystemJS.import('~/test');
 
     let actual = module.returnTrue();
     let expected = true;

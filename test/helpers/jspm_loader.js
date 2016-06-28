@@ -6,4 +6,4 @@ const pjsonDir = path.parse(pjsonLoc).dir;
 
 jspm.setPackagePath(pjsonDir);
 
-global.System = jspm.Loader();
+global.SystemJS = jspm.Loader();
